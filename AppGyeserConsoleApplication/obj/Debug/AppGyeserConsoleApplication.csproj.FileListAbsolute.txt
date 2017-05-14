@@ -1,0 +1,10 @@
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\bin\Debug\AppGyeserConsoleApplication.exe.config
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\bin\Debug\AppGyeserConsoleApplication.exe
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\bin\Debug\AppGyeserConsoleApplication.pdb
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\obj\Debug\AppGyeserConsoleApplication.csprojResolveAssemblyReference.cache
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\obj\Debug\AppGyeserConsoleApplication.exe
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\obj\Debug\AppGyeserConsoleApplication.pdb
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\bin\Debug\CsvHelper.dll
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\bin\Debug\CsvHelper.xml
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\bin\Debug\Newtonsoft.Json.dll
+C:\code\AppGyeserConsoleApplication\AppGyeserConsoleApplication\bin\Debug\Newtonsoft.Json.xml
