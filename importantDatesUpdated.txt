@@ -1,0 +1,251 @@
+Date	FestivalName
+4 January	World Braille Day(207th birth anniversary of Louis Braille)
+9 January	Pravasi Bharatiya Divas (NRI Day)
+10 January	World Hindi Day
+12 January	National Youth Day
+15 January	69th Indian Army Day
+24 January	National girl child day
+25 January	National Voters Day
+26 January	International Customs Day
+26 January	68th Republic Day
+27 January	International Day of Commemoration in memory of the victims of the Holocaust
+2 February	World Wetlands Day
+4 February	World Cancer Day
+6 February	International day of Zero Tolerance to female genital mutilation
+7 February	Safer Internet Day
+10 February	National Deworming Day
+11 February	International day Women and girls in Science
+12 February	National Productivity Day
+13 February	World Radio Day
+20 February	World Day of Social Justice
+21 February	International Mother language day
+22 February	World Thinking day
+24 February	Central Excise Day
+28 February	National Science Day
+1 March	Zero Discrimination Day
+3 March	World Wild Life Day
+4 March	World Hearing Day
+8 March	International Women’s Day
+12 March	World Kidney Day
+13 March	Commonwealth Day
+15 March	World Consumer Rights Day
+20 March	International Day of Happiness
+21 March	International Day of Forests
+21 March	World Down Syndrome Day
+22 March	World Water Day
+23 March	World Meteorological Day
+24 March	World TB Day
+27 March	World Theatre Day
+1 April	Prevention of Blindness Week
+2 April	World Autism Awareness Day
+2 April	International Children’s Book Day
+4 April	National Day for Mine Awareness and Assistance in mine action
+5 April	National Maritime Day
+6 April	International Day for Sports Development and Peace
+7 April	World Health Day
+7 April	Handloom Week
+8 April	International Romani Day
+10 April	World Homeopathy Day
+11 April	National Safe Motherhood Day
+12 April	International Day of Human Space Flight
+13 April	Jallianwala Bagh Massacre
+14 April	Dr. Bhimrao Ambedkar Jayanti
+14 April	Customs Day
+17 April	World Hemophilia Day
+18 April	World Heritage Day
+21 April	Civil Services Day
+22 April	World Earth Day
+23 April	World Book and Copyright Day
+24 April	National Panchayati Day
+24 April	Women’s Political Empowerment Day, India
+25 April	World Malaria Day
+26 April	World Intellectual Property Day
+29 April	International Dance Day
+30 April	Internattional Jazz Day
+30 April	Anti-Child Labour Day
+1 May	International Labour Day
+1 May	May Day
+1 May	Maharashtra Day
+2 May	World Asthma Day
+3 May	World Press Freedom Day
+4 May	International Firefighters Day
+5 May	International Midwives Day
+7 May	World Athletics Day
+7 May	World Laughter Day
+7 May	Rabindra Nath Tagore Jayant
+8 May	Mother’s Day
+8 May	World Redcross Day
+8 May	Road Safety Week
+10 May	World Migratory Bird Day
+11 May	National Technology Day
+12 May	International Nurses Day
+15 May	International Families Day
+16 May	National Dengue Day
+17 May	World Telecommunication Day
+18 May	World AIDS Vaccine Day
+20 May	World Metrology Day
+21 May	Anti-Terrorism Day
+22 May	International Day for Biological Diversity
+23 May	World Turtle Day
+25 May	International Missing Children’s Day
+25 May	World Malaria Day
+26 May	Gunners Day- New Zealand
+28 May	Maharana Pratap Jayanti
+29 May	International Day of UN Peacekeepers
+30 May	Goa Statehood Day
+31 May	World No Tobbacco Day
+1 June	World Milk Day
+2 June	International Sex Workers’ Day
+4 June	International Day for Innocent Children Victims of Aggression Cancer Survivors Day
+5 June	World Environment Day
+8 June	Coal Miners Day 
+8 June	World Ocean Day
+12 June	Anti-Child Labour Day
+14 June	World Blood Donor Day
+15 June	World Elder Abuse Awareness Day
+16 June	International Day of Family Remittances
+17 June	Word Day to Combat Desertification and Drought
+19 June	International Day for the elimination of Sexual Violence and Conflict
+20 June	World Refugee Day
+21 June	International Yoga Day
+23 June	Public Service Day 
+23 June	International Widow’s Day 
+23 June	International Olympic Day
+26 June	International Day Against Drug Abuse and Illicit trafficking
+29 June	National Statistics Day
+1 July	National Doctor’s Day
+2 July	World Sports Journalists’ Day
+4 July	American Independence Day
+7 July	Global Forgiveness Day
+11 July	World Population Day
+12 July	Malala Day
+15 July	World Youth Skill Day
+17 July	International Justice Day
+18 July	International Nelson Mandela Day
+26 July	International Day for the conservation of the mangrove ecosystem 
+26 July	Kargil Vijay Diwas
+28 July	World Hepatitis Day
+29 July	International Tiger Day
+30 July	World Day Against Trafficking in Persons
+1 August	World Breastfeeding Week
+6 August	Hiroshima Day & Anti-Nuclear Day
+7 August	Handloom Day
+9 August	Kranti Diwas (Quit India Movement) 
+9 August	International Day of the world’s indigenous peoples
+10 August	World Bio-Fuel Day
+11 August	National Daughter’s Day
+12 August	International Youth Day
+13 August	Organ Donation Day
+15 August	Independence Day of India
+19 August	World Photography Day 
+19 August	World Humanitarian Day
+20 August	Sadbhawana Diwas/ Harmony Day
+29 August	Sanskrit Day 
+29 August	International Day Against Nuclear Test 
+29 August	National Sports Day
+30 August	National Small Industry Day
+1 September	National Nutrition Week 
+2 September	World Coconut Day
+4 September	National Labour Day USA
+5 September	National Teachers Day 
+5 September	International Charity Day
+8 September	International Literacy Day
+10 September	World First Aid Day 
+10 September	World Suicide Prevention Day
+12 September	International Day for South-South Cooperation
+13 September	World Chocolate Day
+14 September	Hindi Diwas
+16 September	International Day for the Preservation of Ozone Layer
+20 September	Railway Police Force Foundation Day
+21 September	World Peace Day 
+21 September	World Alzheimer Day
+22 September	World Cancer Free Day
+25 September	World Rivers Day 
+25 September	World Pharmacists Day
+26 September	World Environmental Health Day 
+26 September	World Contraception Day
+27 September	World Tourism Day
+28 September	World Rabies Day 
+28 September	Gunners Day India 
+28 September	World Maritime Day
+29 September	World Heart Day
+30 September	World Deaf Day 
+30 September	International Translation Day
+1 October	International Day for Older Persons 
+1 October	World Vegetarian Day
+2 October	World Habitat Day  
+2 October	International Day of Non-Violence/Mahatma Gandhi Jayanti
+4 October	World Space Week 
+4 October	World Animal Day
+5 October	World Teachers Day
+8 October	Airforce Day
+9 October	Columbus Day 
+9 October	World Post Day
+10 October	World Mental Health Day 
+10 October	World Day Against Death Penalty
+11 October	International Girl Child Day
+13 October	World Sight Day 
+13 October	International Day for Disaster Reduction
+14 October	International Standards’ Day
+15 October	International Day of Rural Women 
+15 October	World Students Day 
+15 October	Safe Motherhood Week 
+16 October	World Food Day
+17 October	Anti-Poverty Day
+20 October	World Statistics Day
+21 October	Police Commemoration Day
+24 October	United Nations Day 
+24 October	World Development Information Day 
+24 October	World Polio Day
+27 October	World Day for Audiovisual Heritage
+28 October	National Ayurveda Day
+29 October	International Internet Day 
+29 October	World Stroke Day
+31 October	National Unity Day 
+31 October	World Savings Day 
+31 October	World Cities Day 
+31 October	Vigilance Awareness Week 
+1 November	No Tobacco Day 
+1 November	World Vegan Day 
+1 November	Karnataka Formation Day
+5 November	World Tsunami Awareness Day
+7 November	National Cancer Awareness Day
+8 November	International Radiology Day
+9 November	World Quality Day
+10 November	World Science Day for Peace and Development
+11 November	National Education Day
+12 November	World Pneumonia Day 
+12 November	Public Service Broadcasting Day
+13 November	World Kindness Day
+14 November	Children’s Day 
+14 November	World Diabetes Day
+16 November	International Day for Tolerance 
+16 November	World Philosophy Day
+20 November	Universal Children’s Day
+21 November	World Television Day
+25 November	International Day For the Elimination of Violence Against Women
+26 November	Constitutional Day-India 
+26 November	National Milk Day
+28 November	Raising Day of National Cadet Corps
+1 December	Word AIDS Day
+2 December	International Day for Abolition of Slavery 
+2 December	National Pollution Control
+3 December	International Day for the Persons with Disabilities
+4 December	Indian Navy Day
+5 December	International Volunteer Day for Economic and Social Development 
+5 December	World Soil Day
+7 December	International Civil Aviation Day 
+7 December	Armed Forces Flag Day- India
+8 December	Plastic Free Day
+9 December	International Anti-Corruption Day
+10 December	Human Rights Day
+11 December	International Mountain Day
+12 December	Universal Health Coverage Day
+14 December	World Energy Conservation Day
+16 December	Vijay Diwas
+18 December	International Migrants Day
+20 December	International Human Solidarity Day
+22 December	National Mathematics Day
+23 December	Kisan Diwas
+24 December	National Consumers Day
+25 December	Good Governance Day

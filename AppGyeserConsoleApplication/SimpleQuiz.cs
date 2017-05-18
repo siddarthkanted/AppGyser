@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace AppGyeserConsoleApplication
 {
+    //http://www.appsgeyser.com/create/simpleQuiz/
     public class SimpleQuiz
     {
         //each level takes 20 questions
@@ -88,24 +89,90 @@ namespace AppGyeserConsoleApplication
 
         public void StateCapitalQuiz()
         {
-            List<StateCapital> countryCurrencyList = JsonConvert.DeserializeObject<List<StateCapital>>(File.ReadAllText(@"C:\code\AppGyeserConsoleApplication\stateCapital.json"));
+            List<StateCapital> countryCurrencyList = JsonConvert.DeserializeObject<List<StateCapital>>(File.ReadAllText(@"C:\code\AppGyeserConsoleApplication\inventJson.json"));
             Random random = new Random(DateTime.Now.Millisecond);
             List<Quiz> quizList = new List<Quiz>();
 
             List<string> currencies = countryCurrencyList.Select(x => x.Capital).Distinct().ToList();
+
+            foreach (var countryCurrency in countryCurrencyList)
+            {
+                Quiz quiz = new Quiz();
+                quiz.question = string.Format("What did {0} invent?", countryCurrency.State);
+                quiz.answer = countryCurrency.Capital;
+                IEnumerable<string> wrongAnswers = currencies.Where(x => !countryCurrency.Capital.Equals(x));
+                quiz.wrongAnswers = string.Join(",", wrongAnswers.OrderBy(x => random.Next()).Take(3));
+                quizList.Add(quiz);
+            }
+            Create(quizList, @"C:\code\AppGyeserConsoleApplication\inventHtml.txt");
+        }
+
+        public void IndiaBrandSloganQuiz()
+        {
+            List<IndiaBrandSlogan> countryCurrencyList = JsonConvert.DeserializeObject<List<IndiaBrandSlogan>>(File.ReadAllText(@"C:\code\AppGyeserConsoleApplication\indiaBrandSlogan.json"));
+            Random random = new Random(DateTime.Now.Millisecond);
+            List<Quiz> quizList = new List<Quiz>();
+
+            List<string> currencies = countryCurrencyList.Select(x => x.Company).Distinct().ToList();
             currencies.Remove("Dehradun (interim)  Nainital (Judiciary)");
             currencies.Remove("Srinagar (summer) Jammu (winter)");
 
             foreach (var countryCurrency in countryCurrencyList)
             {
                 Quiz quiz = new Quiz();
-                quiz.question = string.Format("Which is the capital of {0}?", countryCurrency.Name);
-                quiz.answer = countryCurrency.Capital;
-                IEnumerable<string> wrongAnswers = currencies.Where(x => !countryCurrency.Capital.Equals(x));
+                quiz.question = string.Format("Which brand has the slogan '{0}'?", countryCurrency.Slogan);
+                quiz.answer = countryCurrency.Company;
+                IEnumerable<string> wrongAnswers = currencies.Where(x => !countryCurrency.Company.Equals(x));
                 quiz.wrongAnswers = string.Join(",", wrongAnswers.OrderBy(x => random.Next()).Take(3));
                 quizList.Add(quiz);
             }
-            Create(quizList, @"C:\code\AppGyeserConsoleApplication\stateCapitalHtml.txt");
+            Create(quizList, @"C:\code\AppGyeserConsoleApplication\IndiaBrandSloganQuizHtml.txt");
+        }
+
+        public void DatesQuiz()
+        {
+            List<DateQuiz> dateQuizList = JsonConvert.DeserializeObject<List<DateQuiz>>(File.ReadAllText(@"C:\code\AppGyeserConsoleApplication\importantDatesJson.json"));
+            dateQuizList = dateQuizList.OrderBy(a => Guid.NewGuid()).ToList();
+            Random random = new Random(DateTime.Now.Millisecond);
+            List<Quiz> quizList = new List<Quiz>();
+
+            List<string> dateList = dateQuizList.Select(x => x.Date).Distinct().ToList();
+
+            foreach (var dateQuiz in dateQuizList)
+            {
+                Quiz quiz = new Quiz();
+                quiz.question = string.Format("When is {0}?", dateQuiz.FestivalName);
+                quiz.answer = dateQuiz.Date;
+
+                IEnumerable<string> wrongAnswers = dateList.Where(x => !dateQuiz.Date.Equals(x));
+                quiz.wrongAnswers = string.Join(",", wrongAnswers.OrderBy(x => random.Next()).Take(3));
+                quizList.Add(quiz);
+            }
+            Create(quizList, @"C:\code\AppGyeserConsoleApplication\dateQuizHtml.txt");
+        }
+
+        public void ChemicalElementSymbolQuiz()
+        {
+            List<ChemicalElementSymbol> countryCurrencyList = JsonConvert.DeserializeObject<List<ChemicalElementSymbol>>(File.ReadAllText(@"C:\code\AppGyeserConsoleApplication\chemicalElementSymbol.json"));
+            Random random = new Random(DateTime.Now.Millisecond);
+            List<Quiz> quizList = new List<Quiz>();
+
+            List<string> currencies = countryCurrencyList.Select(x => x.Sym).Distinct().ToList();
+
+            foreach (var countryCurrency in countryCurrencyList)
+            {
+                Quiz quiz = new Quiz();
+                quiz.question = string.Format("What is the symbol of {0}?", countryCurrency.Element);
+                quiz.answer = countryCurrency.Sym;
+
+                List<string> wrongAnswersSameChar = currencies.Where(x => !countryCurrency.Sym.Equals(x) && countryCurrency.Sym[0] == x[0]).ToList();
+                List<string> wrongAnswers = currencies.Where(x => !countryCurrency.Sym.Equals(x) && !wrongAnswersSameChar.Contains(x)).ToList();
+                wrongAnswersSameChar.AddRange(wrongAnswers);
+
+                quiz.wrongAnswers = string.Join(",", wrongAnswersSameChar.Take(3));
+                quizList.Add(quiz);
+            }
+            Create(quizList, @"C:\code\AppGyeserConsoleApplication\ChemicalElementSymbolHtml.txt");
         }
 
 
@@ -137,7 +204,25 @@ namespace AppGyeserConsoleApplication
 
     class StateCapital
     {
-        public string Name { get; set; }
+        public string State { get; set; }
         public string Capital { get; set; }
+    }
+
+    class DateQuiz
+    {
+        public string Date { get; set; }
+        public string FestivalName { get; set; }
+    }
+
+    class IndiaBrandSlogan
+    {
+        public string Company { get; set; }
+        public string Slogan { get; set; }
+    }
+
+    class ChemicalElementSymbol
+    {
+        public string Sym { get; set; }
+        public string Element { get; set; }
     }
 }

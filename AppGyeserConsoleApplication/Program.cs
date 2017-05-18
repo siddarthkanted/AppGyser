@@ -12,11 +12,17 @@ namespace AppGyeserConsoleApplication
         {
             Console.WriteLine("start");
 
+            //HttpPostImage httpPostImage = new HttpPostImage();
+            //httpPostImage.PostImage();
+
+            WordSearch wordSearch = new WordSearch();
+            wordSearch.HindiMovies();
+
             //WordChallenge wordchallenge = new WordChallenge();
             //wordchallenge.create();
 
-            SimpleQuiz simpleQuiz = new SimpleQuiz();
-            simpleQuiz.StateCapitalQuiz();
+            //SimpleQuiz simpleQuiz = new SimpleQuiz();
+            //simpleQuiz.DatesQuiz();
 
             Console.WriteLine("Finsh");
         }
