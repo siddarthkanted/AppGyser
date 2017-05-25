@@ -45,12 +45,12 @@ namespace AppGyeserConsoleApplication
 
         public void HindiMovies()
         {
-            List<string> allLinesText = File.ReadAllLines(@"C:\code\AppGyeserConsoleApplication\englishMovieNames.txt").ToList();
+            List<string> allLinesText = File.ReadAllLines(@"C:\code\AppGyeserConsoleApplication\tamilMovieNames.txt").ToList();
             allLinesText = allLinesText.Select(x => x.ToUpper()).ToList();
             allLinesText = allLinesText.Where(x => !IsMultipleWords(x)).ToList();
             allLinesText = allLinesText.Distinct().ToList();
             allLinesText = allLinesText.OrderBy(a => Guid.NewGuid()).ToList();
-            GenerateHtml(allLinesText, @"C:\code\AppGyeserConsoleApplication\hindiMovieHtml.txt");
+            GenerateHtml(allLinesText, @"C:\code\AppGyeserConsoleApplication\tamilMovieHtml.txt");
         }
 
         private bool IsMultipleWords(string line)

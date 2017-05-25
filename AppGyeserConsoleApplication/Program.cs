@@ -12,11 +12,20 @@ namespace AppGyeserConsoleApplication
         {
             Console.WriteLine("start");
 
+            Crossword crossword = new Crossword();
+            crossword.SpellBeeHtml();
+
+            //GlossaryApp glossaryApp = new GlossaryApp();
+            //glossaryApp.GenerateChukle();
+
+            //WordScramble wordScramble = new WordScramble();
+            //wordScramble.SpellBeeHtml();
+
             //HttpPostImage httpPostImage = new HttpPostImage();
             //httpPostImage.PostImage();
 
-            WordSearch wordSearch = new WordSearch();
-            wordSearch.HindiMovies();
+            //WordSearch wordSearch = new WordSearch();
+            //wordSearch.HindiMovies();
 
             //WordChallenge wordchallenge = new WordChallenge();
             //wordchallenge.create();
@@ -25,6 +34,7 @@ namespace AppGyeserConsoleApplication
             //simpleQuiz.DatesQuiz();
 
             Console.WriteLine("Finsh");
+            Console.ReadKey();
         }
     }
 }

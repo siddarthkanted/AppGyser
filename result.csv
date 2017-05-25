@@ -1,0 +1,101 @@
+Category,Word
+Month Names,January
+Month Names,February
+Month Names,March
+Month Names,April
+Month Names,May
+Month Names,June
+Month Names,July
+Month Names,August
+Month Names,September
+Month Names,October
+Month Names,November
+Month Names,December
+Day Names,Sunday
+Day Names,Monday
+Day Names,Tuesday
+Day Names,Wednesday
+Day Names,Thursday
+Day Names,Friday
+Day Names,Saturday
+Day Names,Today
+Day Names,Tomorrow
+Day Names,Yesterday
+Numbers,one
+Numbers,two
+Numbers,three
+Numbers,four
+Numbers,five
+Numbers,six
+Numbers,seven
+Numbers,Eight
+Numbers,nine
+Numbers,ten
+Numbers,eleven
+Numbers,twelve
+Numbers,thirteen
+Numbers,fourteen
+Numbers,fifteen
+Numbers,sixteen
+Numbers,seventeen
+Numbers,eighteen
+Numbers,nineteen
+Numbers,twenty
+Numbers,hundred
+Numbers,thousand
+Numbers,lakh
+Numbers,million
+Numbers,billion
+Numbers,Crore
+Numbers,Zero
+Numbers,single
+Numbers,double
+Numbers,triple
+Numbers,number
+Numbers,digit
+Operators,Add
+Operators,Minus
+Operators,Subtract
+Operators,Divide
+Operators,Multiply
+Operators,Addition
+Operators,Subtraction
+Operators,Division
+Operators,Multiplication
+Operators,Calculate
+Operators,Calculation
+Operators,Fraction
+Operators,Numerator
+Operators,Denominator
+Operators,increment
+Operators,decrement
+Operators,logarithm
+Operators,counting
+Shapes,Circle
+Shapes,oval
+Shapes,triangle
+Shapes,square
+Shapes,trapezium
+Shapes,diamond
+Shapes,rhombus
+Shapes,parallelogram
+Shapes,rectangle
+Shapes,pentagon
+Shapes,hexagon
+Shapes,heptagon
+Shapes,octagon
+Shapes,nonagon
+Shapes,decagon
+Clock,Clock
+Clock,Analog
+Clock,Digital
+Clock,Hour
+Clock,Minute
+Clock,Second
+Clock,Date
+Clock,Day
+Clock,Month
+Clock,Year
+Clock,Watch
+Clock,Alarm
+Clock,Reminder
